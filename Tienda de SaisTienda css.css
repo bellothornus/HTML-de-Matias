@@ -1,0 +1,52 @@
+body{margin: 0;
+    padding: 0;
+    background-image:url(Imagenes/2.%20Fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+header #cabecera{
+        text-align: center;
+        font-size: 30px}
+
+header div table{
+            width: 100%;
+            color: #FFFFFF;
+            border: #BA172C solid 2px}
+        
+            header div img{
+                height: 100px}
+            
+
+                header div #LogoSJO{
+                    float:left}
+    
+                header div #LogoDIOCESANS{
+                    float: right}
+
+div#imagenes-arriba table tr th{
+    align-content: center;
+    width: 33%;
+}
+
+div#imagenes-arriba table tr th img{
+    height: 200px;
+    width: 200px;
+}
+
+div#imagenes-arriba table tr th p{
+    margin: 20px;
+}
+
+div#imagenes-abajo table tr th{
+    align-content: center;
+    width: 33%;
+}
+div#imagenes-abajo table tr th img{
+    height: 200px;
+    width: 200px;
+}
+div#imagenes-abajo table tr th p{
+    margin: 20px;
+}
