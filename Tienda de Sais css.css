@@ -1,0 +1,74 @@
+body{margin: 0;
+    padding: 0;
+    background-image:url(Imagenes/2.%20Fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+        header{}
+
+    header #cabecera{
+        text-align: center;
+        font-size: 30px}
+
+        header div table{
+            width: 100%;
+            color: #FFFFFF;
+            border: #BA172C solid 2px}
+        
+            header div img{
+                height: 100px}
+            
+
+                header div #LogoSJO{
+                    float:left}
+    
+                header div #LogoDIOCESANS{
+                    float: right}
+
+
+#separador1{
+    :;
+    height: 20px}
+
+
+section{
+    color: #FFFFFF;
+    height: }
+
+
+
+fieldset{
+    border:#FFFFFF solid;
+}
+
+
+
+    #ContenedorImagenPortada{
+        display: block;
+        text-align: center}
+
+
+        #ContenedorProducto1{
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+}
+
+
+img{
+    transition: all 0.5s ease;
+}
+
+footer{
+    position:relative;
+    bottom: 0px;
+    text-align: center;
+    background-color: #BA172C;
+    color: #AAAAAA}
+
+
+        #copyright{
+            color:#AAAAAA;
+            background-color: #000000}
