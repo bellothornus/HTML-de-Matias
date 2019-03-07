@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <link rel= "shotcut icon" href="Imagenes/1.%20FaviconSJO.png" type="image/ico">
+        
+        <link rel="stylesheet"href="Tienda%20de%20Sais%20css.css">
+        <title>Tienda Sais | Grup Educatiu SJO</title>
+    </head>
+    
+    
+    <body>
+       
+       <header>
+           <div id="cabecera">
+              <table>
+                  <tr>
+                      <th>
+                          <img id="LogoSJO" src="Imagenes/3.%20santjosep-lletres.jpg">
+                      </th>
+                      <th>
+                          SAIS for All
+                      </th>
+                      <th>
+                          <img id="LogoDIOCESANS" src="Imagenes/4.%20logo-diocesans.png">
+                      </th>
+                  </tr>
+               </table>                      
+           </div>     
+        </header>
+
+        
+        
+        <div id="separador1"></div>
+        
+        <section>
+            <div>
+                <fieldset>
+                    <p>Si tiene dudas o necesita hacer alguna consulta porfavor rellene este cuestionario.
+                    </p>
+                    <p>
+                    Recuerde que mientras mas datos nos proporcione mejor podremos asesorarle.
+                    </p>
+                    <p>
+                    Estamos aquí para servirle</p>
+                </fieldset>
+                <br><br>
+                <fieldset>
+                    <legend><strong>Categorías:</strong></legend>
+                    <p>Porfavor, seleccione las categorías de las que desea recibir información.</p>
+                    <input type="checkbox" name="Categorías" >Sais
+                    <br>
+                    <input type="checkbox" name="Categorías" >Equipos Electrógenos
+                    <br>
+                    <input type="checkbox" name="Categorías" >Transformadores
+                    <br>
+                    <input type="checkbox" name="Categorías" >Fuentes de alimentación
+                    <br>
+                    <input type="checkbox" name="Categorías" >Cableado
+                    <br>
+                    <input type="checkbox" name="Categorías" >Otros
+                </fieldset>
+                <br><br>
+                
+                <fieldset>
+                    <legend><strong>Tienda preferida</strong></legend>
+                    <p>Porfavor, seleccione su tienda preferida:</p>
+                    <select>
+					   <optgroup label="Baleares">
+						  <option value="Baleares" >Palma de Mallorca</option>
+                           <option value="Baleares" >Menorca</option>
+                        </optgroup>
+					<optgroup label="Canarias">
+						<option value="Canarias" >Tenerife</option>
+                        <option value="Canarias" >Gran Canaria</option>	
+					</optgroup>
+					<optgroup label="Extremadura">
+						<option value="Extremadura" >Cáceres</option>
+						<option value="Extremadura" >Badajoz</option>	
+					</optgroup>
+				    </select>
+                </fieldset>
+                
+                <br><br>
+                
+                <fieldset>
+                    <legend><strong>Introduce aquí tu consulta:</strong></legend>
+                    <label for="Nombre" >Nombre: </label>
+                        <input type="text"  maxlength="50"  name="Apellidos" placeholder="Nombre" >
+                        <br><br>
+                    <label for="Apellidos"> Apellidos : </label>
+                        <input type="text"  maxlength="50" name="Apellidos" placeholder="Apellidos">
+                        <br><br>
+                    <label for="Correo electrónico"> Correo electrónico : </label>
+                        <input type="email" name="Correo electrónico" placeholder="email">
+                    <br><br>
+                    <label for="Género"> Género : </label>
+                        <input type="radio" name="Género">Mujer
+                        <input type="radio" name="Género">Hombre
+                    
+                    <br><br>
+                    <label for="escribe aqui tu consulta">
+                        <input type="text" id="consulta" placeholder="consulta"/>
+                    </label>
+                    <br><br>
+                 </fieldset>
+                <br><br>
+                 <fieldset>
+                 <input type="checkbox" name="Casilla de verificación" checked>Deseo recibir información sobre novedades y ofertas
+                <br/>
+                <input type="checkbox" name="Protección de Datos" >Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos.
+            </fieldset>
+                
+                
+                <br><br>
+                <fieldset>
+                    <button onclick="MostrarComentario();">Enviar consulta</button>
+                </fieldset>
+                
+                
+            </div>
+        </section>
+        
+        <footer>
+            <div id="PieDePagina">
+                 <article>Carrer Sebastià Arrom, 3, 5, 07008 Palma, Islas Baleares</article>
+                <a href="https://www.santjosepobrer.es/">Sant Josep Obrer</a >
+                <article id="copyright">2019 © GRUP EDUCATIU SJO</article>
+            </div>
+        </footer>
+        
+    <script src="PracticaJavascript.js"></script>
+        
+    </body>
+    
+</html>
